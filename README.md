@@ -9,3 +9,5 @@ Huggingface: https://huggingface.co/nc-ai-consortium/VAETKI/
 # License
 This code repository is licensed under the MIT License. The use of VAETKI models is subject to the Model License.
 
+# Contact
+If you are interested to leave a message or have any questions, please contact us at wbl.ncai.hf@gmail.com.
