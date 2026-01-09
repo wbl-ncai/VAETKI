@@ -1,5 +1,6 @@
-# Download the model
-Download [VAETKI](https://huggingface.co/NC-AI-consortium-VAETKI/VAETKI) on Hugging Face
+# Model Release
+Access [VAETKI](https://huggingface.co/NC-AI-consortium-VAETKI/VAETKI) on Hugging Face.  
+Read the [Technical Report](https://github.com/wbl-ncai/VAETKI/blob/main/VAETKI_Technical_Report.pdf).
 
 # Quickstart
 
