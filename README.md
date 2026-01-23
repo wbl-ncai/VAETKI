@@ -1,11 +1,45 @@
-# VAETKI 실행 코드
-독자 파운데이션 모델 관련 코드
+# Model Release
 
-# 모델 다운로드
-Huggingface: https://huggingface.co/nc-ai-consortium/VAETKI/
+**VAETKI model** is available on **[Hugging Face](https://huggingface.co/NC-AI-consortium-VAETKI/VAETKI)**.  
+See the **[Technical Report](https://github.com/wbl-ncai/VAETKI/blob/releases/v1.0.0/VAETKI_Technical_Report.pdf)** for details.
+
 
 # Quickstart
-to be updated
+> **Hardware requirement**  
+> VAETKI inference requires **at least 4 GPUs with 80GB VRAM**
+> (e.g., **NVIDIA A100 80GB ×4**).
+
+## 🤗 Transformers
+VAETKI can be run with Hugging Face Transformers.
+- **Required version**: `transformers>=4.56`
+- **Recommended version**: `transformers~=4.57.3`
+
+### Install dependencies
+```bash
+pip install transformers>=4.56 accelerate>=1.10
+pip install flash-attn>=2.8 --no-build-isolation
+```
+
+### Example code
+Please refer to the [Transformers example code](https://github.com/wbl-ncai/VAETKI/blob/releases/v1.0.0/example.py).
+
+
+## vLLM
+VAETKI also supports inference via vLLM.
+- Tested with: `vllm==0.11.2`
+
+For convenience, you may use the following vLLM Docker image:
+``` bash
+docker pull vllm/vllm-openai:v0.11.2
+```
+
+### Install VAETKI vLLM plugin
+``` bash
+pip install "git+https://github.com/wbl-ncai/VAETKI.git@releases/v1.0.0#subdirectory=vllm_plugin"
+```
+
+### Example code
+Please refer to the [vLLM example code](https://github.com/wbl-ncai/VAETKI/blob/releases/v1.0.0/vllm_plugin/vaetki/__main__.py).
 
 # License
 This code repository is licensed under the MIT License. The use of VAETKI models is subject to the Model License.
