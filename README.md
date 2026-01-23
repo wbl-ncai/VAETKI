@@ -41,6 +41,20 @@ pip install "git+https://github.com/wbl-ncai/VAETKI.git@releases/v1.0.0#subdirec
 ### Example code
 Please refer to the [vLLM example code](https://github.com/wbl-ncai/VAETKI/blob/releases/v1.0.0/vllm_plugin/vaetki/__main__.py).
 
+# Citation
+
+If you use VAETKI or refer to our work in your research, please cite the following technical report:
+
+```bibtex
+@misc{ncai2025vaetkitechnicalreport,
+  title        = {VAETKI Technical Report},
+  author       = {{NC-AI Consortium}},
+  year         = {2025},
+  howpublished = {\url{https://github.com/wbl-ncai/VAETKI/blob/releases/v1.0.0/VAETKI_Technical_Report.pdf}},
+  note         = {Version 1.0.0}
+}
+```
+
 # License
 This code repository is licensed under the MIT License. The use of VAETKI models is subject to the Model License.
 
