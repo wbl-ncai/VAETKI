@@ -41,7 +41,7 @@ pip install "git+https://github.com/wbl-ncai/VAETKI.git@releases/v1.0.0#subdirec
 ### Example code
 Please refer to the [vLLM example code](https://github.com/wbl-ncai/VAETKI/blob/releases/v1.0.0/vllm_plugin/vaetki/__main__.py).
 
-## Citation
+# Citation
 
 If you use VAETKI or refer to our work in your research, please cite the following technical report:
 
