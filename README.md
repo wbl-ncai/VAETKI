@@ -50,7 +50,7 @@ If you use VAETKI or refer to our work in your research, please cite the followi
   title        = {VAETKI Technical Report},
   author       = {{NC-AI Consortium}},
   year         = {2025},
-  howpublished = {\url{https://github.com/wbl-ncai/VAETKI/blob/releases/v1.0.0/VAETKI_Technical_Report.pdf}},
+  howpublished = {\url{https://github.com/wbl-ncai/VAETKI/raw/releases/v1.0.0/VAETKI_Technical_Report.pdf}},
   note         = {Version 1.0.0}
 }
 ```
