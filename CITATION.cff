@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use VAETKI or refer to our work in your research, please cite the following technical report."
+title: "VAETKI"
+type: software
+version: "1.0.0"
+authors:
+  - name: "NC-AI Consortium"
+repository-code: "https://github.com/wbl-ncai/VAETKI"
+url: "https://huggingface.co/NC-AI-consortium-VAETKI/VAETKI"
+preferred-citation:
+  type: generic
+  title: "VAETKI Technical Report"
+  authors:
+    - name: "NC-AI Consortium"
+  year: 2025
+  url: "https://github.com/wbl-ncai/VAETKI/raw/releases/v1.0.0/VAETKI_Technical_Report.pdf"
+  notes: "Version 1.0.0"
